@@ -2,14 +2,65 @@
 
  * {
   font-family: "Roboto", sans-serif;
-  background-color:rgb(224, 81, 81);
-  color: #333333;
   line-height: 1.6;
   margin: 0;
   padding: 0;
 }
+
  header{
-    background-color:rgb(200, 244, 255);
-    color: white;
-    text-aline: center;
+ background-color:rgb(200, 244, 255);
+ color: white;
+ text-align: center;
 }
+
+body{
+ background-color:rgb(255, 255, 255);
+ color: #333;
+}
+
+.header-cointainer{
+ background-color:rgb(0, 89, 255);
+ color: rgb(255, 255, 255);
+ padding: 20px;
+ text-align: center;
+}
+
+main{
+ max-wight: 800px;
+ margin: auto;
+ text-align: center
+}
+
+ .link{
+ color: white;
+ text-decoration: none;
+}
+
+.link:hover{
+ color: yellow;
+}
+
+.link:visited{
+ color:cyan;
+}
+
+nav ul{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    gap: 75px
+}
+
+.subtitle{
+ margin: 25px 0;
+}
+.list-main{
+    margin-left: 20px
+}
+ footer{
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+ }
